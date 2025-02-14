@@ -6,7 +6,34 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Simple Top Links Styles */
+.top-links {
+	text-align: center; /* Center links */
+	padding: 1em 0;
+	background-color: #f5f5f5; /* Light background */
+	font-size: 1.1em;
+	font-weight: 700;
+  }
+  
+  .top-links a {
+	color: #585858;
+	text-decoration: none;
+	margin: 0 15px;
+	transition: color 0.3s ease;
+	border-bottom: 2px solid transparent;
+  }
+  
+  .top-links a:hover {
+	color: #f2849e; /* Pink on hover */
+	border-bottom-color: #f2849e;
+  }
 
+  .center-header { 
+    width: 80%;             /* Set the desired width */ 
+    margin: 0 auto;         /* Center the element horizontally */ 
+    text-align: center;     /* Optional: Center the text within the element */ 
+} 
+  
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -71,6 +98,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
 
 /* Basic */
 
