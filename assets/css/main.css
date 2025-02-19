@@ -32,8 +32,11 @@
     width: 80%;             /* Set the desired width */ 
     margin: 0 auto;         /* Center the element horizontally */ 
     text-align: center;     /* Optional: Center the text within the element */ 
+
+
 } 
-  
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -80,6 +83,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background-color: #d1eaf6 /*light blue*/
 }
 
 mark {
