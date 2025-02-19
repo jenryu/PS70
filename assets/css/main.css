@@ -83,7 +83,6 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
-	background-color: #d1eaf6 /*light blue*/
 }
 
 mark {
@@ -131,7 +130,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		/* WHERE TO CHANGE BACKGROUND COLOR *background: #ffffff;*/
+		background: #d1eaf6;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
