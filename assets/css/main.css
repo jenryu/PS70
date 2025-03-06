@@ -130,8 +130,9 @@ input, select, textarea {
 	}
 
 	body {
-		/* WHERE TO CHANGE BACKGROUND COLOR *background: #ffffff;*/
-		background: #d1eaf6;
+		/* WHERE TO CHANGE BACKGROUND COLOR *background: #ffffff;
+		background: #d1eaf6;*/
+		background: #e7f1f6;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {

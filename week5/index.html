@@ -53,8 +53,76 @@
 
           <!-- Project Description -->
           <section>
-            <h2>work in progress</h2>
-            <p>...</p>
+            <h2>3d modeling + printing:</h2>
+            <h2> mushroom container!</h2>
+            <p>
+              this silly little mushroom took me so much time!!
+              initially, i wanted to model and print a figurine as an opportunity to learn blender. i heard that blender is better for modeling organic shapes like “clay” and for more creative works, which really aligns with my 3d printing goals. it was way more intuitive for me to use than fusion, however i ran into quite a few problems later on that took a long time to resolve.
+            </p>
+            <h2> prototype </h2>
+            <p>
+              using some online tutorials and a lot of trial and error, I made the general outline and shape of the mushroom. this was a fun process that taught me blender’s capabilities and functions. i embedded uv circles into the mushroom “hat” to create the spots, which looked perfect in the program, but had some problems when i printed it. 
+              
+              these are the results from my prototype print that took around 2hrs. i noticed that the spots on the hat were not as clean and doesn’t protrude as they had looked in the program, but i initially thought that this was just a 3d printing problem. one of the spots were also missing on the mushroom and it was concave inside, but i thought that the spot just fell out. here, i got inspired and decided to improve the design of my mushroom and separate it into two parts where the hat is a screw on lid. the inside of the mushroom could be hollow and a container.
+            </p>
+            <div class="row gtr-uniform">
+              <div class="col-6">
+                <span class="image fit">
+                <img src="mini_mushroom_front.jpg">
+                </span>
+              </div>
+              
+              <div class="col-6">
+                <span class="image fit">
+                <img src="mini_shroom.jpg">
+                </span>
+              </div>
+              <div class="col-6">
+                <span class="image fit">
+                <img src="mini_mushroom_back.jpg">
+                </span>
+              </div>
+            </div>
+
+            <h2> mushroom container </h2>
+            <p>
+              this is when i started running into major problems. i planned to use the opportunity to create a screw on lid by transferring to fusion and learning the workflow between blender and fusion. in hindsight, i could save so much time by changing the order of what is created in each app.
+            </p>
+            <p>
+              first, i split my model on blender into two separate pieces (hat and body). when i exported my hat into fusion, i noticed that something weird was happening with the spots where they were concaving inside. this was so annoying and i tried so many things to try to figure out what was happening. i literally made a million different versions of the hat, since they looked fine inside blender but whenever i exported it, the spots would disappear. after a very long process, i found the feature face orientation on blender to help me identify my problem. i found out the spots were fine, but my hat was actually inverted what the heck! something must have happened when i split the mushroom into two, and the 3d printer + fusion couldn’t understand what was going on.
+            </p>
+            <p>
+              i transferred my mushroom to fusion to create the screw threads. this is when i realized that i should’ve started from fusion and then built the body in blender afterwards. it was difficult to work with a mesh in fusion and almost impossible to do basic alterations on the mesh. for example, i wanted to cut a hole in the top of the body and the bottom of the hat to install the screw threads, but that was so difficult to do. in addition, my mesh bodies kept throwing errors since fusion flagged it as having too “little volume” and being too thin. i tried to solve this creatively by duplicating the hat and body and making a slightly smaller version of them (.98 scale) to place inside. then, i wrapped those bodies to resolve the error, since wrapping destroyed the outer layer of the bodies, which i obviously did not want on my outer layer. i then placed these inside the external layer. making the screw threads was fairly easy, as I created two solid cylinders which i then converted to mesh. i kept running into errors with cutting a hole to place the screws in, and i ended up giving u and going back to blender and cutting the holes there. 
+            </p>
+            <p>
+              then i printed! i didn’t realize that there was still one layer inside the body that prevents it from being fully empty, so i will alter that to fully make it a container. but i’m so happy the screws work! 
+            </p>
+            
+            <div class="row gtr-uniform">
+              <div class="col-6">
+                <span class="image fit">
+                <img src="shroom_cont_hold.jpg">
+                </span>
+              </div>
+              
+              <div class="col-6">
+                <span class="image fit">
+                <img src="shroom_cont_side.jpg">
+                </span>
+              </div>
+              <div class="col-6">
+                <span class="image fit">
+                <img src="both_shrooms.jpg">
+                </span>
+              </div>
+            </div>
+
+            <div class="image fit">
+              <img src="shroom_cont_inside.jpg">
+            </div>
+            
+              
+
           </section>
         </div>
       </div>
