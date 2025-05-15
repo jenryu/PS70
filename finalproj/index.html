@@ -53,25 +53,70 @@
 
           <!-- Project Description -->
           <section>
-            <h2>work in progress</h2>
+            <h2>taking 2 dimensions into 3 </h2>
             <p>...</p>
 
-            <!-- Example Image Section -->
-            <h3>project gallery</h3>
-            <span class="image main">
-              <img src="../images/week1-placeholder.jpg" alt="project image" />
-            </span>
+            <div class="row gtr-uniform">
+              <div class="col-4">
+                <span class="image fit">
+                <img src="aestheticboard.png">
+                </span>
+              </div>
+              
+              <div class="col-4">
+                <span class="image fit">
+                <img src="aerealboard.png">
+                </span>
+              </div>
+              <div class="col-4">
+                <span class="image fit">
+                <img src="best_front.png">
+                </span>
+              </div>
 
-            <!-- Example Video Embed Section -->
-            <h3>video walkthrough</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+              <div class="row gtr-uniform">
+                <div class="col-4">
+                  <span class="image fit">
+                  <img src="topview.png">
+                  </span>
+                </div>
+                
+                <div class="col-4">
+                  <span class="image fit">
+                  <img src="sideview.png">
+                  </span>
+                </div>
+                <div class="col-4">
+                  <span class="image fit">
+                  <img src="underneath_micro.png">
+                  </span>
+                </div> 
+              </div>
+              
+                  <div class="image fit">
+                    <img src="blueprints.png">
+                  </div>
 
+              <div style="display: flex; gap: 10px; justify-content: center;">
+                <video src="click_mechanism_push_vid.mov" autoplay loop muted playsinline width="200"></video>
+                <video src="servo_move_up.mov" autoplay loop muted playsinline width="200"></video>
+                <video src="closeup_click.mov" autoplay loop muted playsinline width="200"></video>
+              </div>
+
+              <div style="display: flex; gap: 10px; justify-content: center;">
+                <video src="bottom_view" autoplay loop muted playsinline width="250"></video>
+                <video src="flying_block.mov" autoplay loop muted playsinline width="250"></video>
+                <video src="gantry_movement.mov" autoplay loop muted playsinline width="250"></video>
+              </div>
+              
+               
             <!-- Additional Paragraphs for Descriptions -->
             <h3>what i learned</h3>
             <p>...</p>
 
             <h3>challenges and solutions</h3>
-            <p>...</p>
+            <p> originally, the plan was for me to use a solenoid, which is what i did in my mvp. however, the problem is that the solenoid doesn't go up enough to click the pen mechanism the entirety of the way. instead, i pivoted to using a servor motor, where the extensions on the arms allow it to swing enough to hit the mechanism.</p>
+            <p>a lot of things broke. the gantry from the writing project was working earlier, but as i was rewiring things, the motor drivers fried, and there were no more left. this put me in a tough situation since this meant i couldnt get the gantry to work at all. however, in principal it would work, and i still formatted the servo motor arm to be able to reach the click-pen mechanism.</p>
           </section>
         </div>
       </div>
