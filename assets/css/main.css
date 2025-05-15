@@ -102,6 +102,32 @@ input, select, textarea {
 	appearance: none;
 }
 
+.video-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2em 0;
+  }
+  
+  .video-wrapper video {
+	width: 60%; /* adjust size as needed */
+	transform: rotate(180deg); /* rotates upside-down video */
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .image-centered {
+	display: flex;
+	justify-content: center;
+	margin: 2em 0;
+  }
+  
+  .image-centered img {
+	width: 60%;        /* Scales image down */
+	max-width: 500px;  /* Prevents it from getting too large */
+	height: auto;      /* Preserves aspect ratio */
+	border-radius: 8px; /* Optional: soften edges */
+  }
 
 /* Basic */
 

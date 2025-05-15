@@ -59,6 +59,7 @@
             <p>
               however, I couldn’t figure out how to get the blocks to stay up after they are pushed up. I kept trying to come up with different ideas, but whenever the gantry and solenoid moves, the square will fall back down. This was the real MVP problem, since worst case scenario, I can just have multiple solenoids so that at least a few squares would be able to be pushed up. i brainstormed through many different sliding mechanisms, but this was a lot more complex than the problem seemed. I was clicking my pen when I was thinking about this and aHA I had a lightbulb moment! I can use the spring mechanism inspired by a pen. 
             </p>
+
             <div class="row gtr-uniform">
               <div class="col-4">
                 <span class="image fit">
@@ -76,26 +77,8 @@
                 <img src="board_click.png">
                 </span>
               </div>
+            </div>
               
-              <p>
-                <div class="row gtr-uniform">
-                  <div class="col-4">
-                    <span class="image fit">
-                    <img src="click.png">
-                    </span>
-                  </div>
-                  
-                  <div class="col-4">
-                    <span class="image fit">
-                    <img src="board_test.png">
-                    </span>
-                  </div>
-                  <div class="col-4">
-                    <span class="image fit">
-                    <img src="board_click.png">
-                    </span>
-                  </div>      
-              </p>
 
               <div class="video-wrapper">
                 <video autoplay loop muted playsinline>
@@ -103,14 +86,15 @@
                 </video>
               </div>
   
-              <div class="image fit">
-                <img src="assembled_mvp.png">
-              </div>
+              
 
               <p>
                 However, there are still multiple things that need to be modified. The dimensions of the mechanism are not entirely accurate, and I need to increase the height that the clicking mechanism will go up through increasing the number of teeth on the mechanism. Although the clicking mechanism is fairly big, it’s limited in how high it can actually raise the square by. I also didn’t factor in how high the solenoid rises, and the amount of height that the device requires to spin is too much for the solenoid.
               </p>
 
+              <div class="image-centered">
+                <img src="assembled_mvp.png" alt="Assembled MVP">
+              </div>
               <p>
                 moreover, I need to create some sort of matrix to hold the individual squares and allow them to slide up after being hit by the solenoid. these are all things i need to address in the next few weeks.
 
