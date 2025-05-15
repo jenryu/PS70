@@ -75,11 +75,22 @@
                 <img src="best_front.png">
                 </span>
               </div>
-
+            </div>
+          </section>
               <p>
                 In order to move the squares up and down, I came up with various ideas. I address the formulation of the pen-click mechanism to allow squares to pop up and down in my <a href="https://jenryu.github.io/PS70/week7/index.html" >mvp project</a> 
 
               </p>
+
+        <section>
+                <h2>Download</h2>
+                <p>click mechanism stl file:</p>
+                <a href="finalproj/click_mechanism.zip" class="button" download>
+                  Download Arduino Code
+                </a>
+        </section>
+        
+        <section>
               
               <p>
                 after this mechanism was set, there were still a lot of issues, namely that in order for the mechanism to work, it must be pushed up a good amount. however, the stroke length of the solenoid was only 4.5 mm, making this impossible. i brainstormed many ways to edit the pen mechanism, such as making the pole longer and the “button” to click it shorter, but that doesn’t address the real issue which is that the solenoid is not able to click the bottom piece over the shaft. additionally, editing the mesh in fusion altered the smooth surfaces of the solenoid, making it harder to spin after 3d printing
@@ -92,6 +103,12 @@
 
               <div class="image-centered">
                 <img src="blueprints.png">
+              </div>
+
+              <div class="video-wrapper">
+                <video autoplay loop muted playsinline>
+                  <source src="flying_block.mov" type="video/mp4">
+                </video>
               </div>
 
               <p>
@@ -122,21 +139,21 @@
                 after creating the general shape of the board and the click mechanism attachments, i went back to the gantry system. I adapted the gantry that my group used in the writing machine project, first, i changed the pen attachment from the gantry into one that allows more space for the servo arm to swing and to decrease the length that the servo will need to be to reach the click mechanism. i attached a servo arm extension to it, and once it rotates, it will be able to hit the clicking mechanism. however, many things began to malfunction at this point. i worked on the code for our group writing machine, so i was familiar with it and what i would need to change in order to get my project to work. however, the esp32 got fried and when i replaced it, the servo also had gotten fried. a lot of things broke. the gantry from the writing project was working earlier, but as i was rewiring things, the motor drivers fried, and there were no more left. this put me in a tough situation since this meant i couldnt get the gantry to work at all. however, in principal it would work, and i still formatted the servo motor arm to be able to reach the click-pen mechanism.the stepper motors stopped working at this point too, and that is when i realized the driver motors also got fried! this was a disaster, and unfortunately there were no other driver motors left. so, the only alternative i had was to show the concept of the gantry moving, and then move the servo attachment around. 
               </p>
 
+              <div style="display: flex; gap: 10px; justify-content: center;">
+                <video src="click_mechanism_push_vid.mov" autoplay loop muted playsinline width="400"></video>
+                <video src="closeup_click.mov" autoplay loop muted playsinline width="400"></video>
+              </div>
+
               <p>
                 I programmed the servo to swing fast as it approaches the 90 degree angle towards the middle of the rotation where the clicking mechanism is located, and then decelerate. this is because if it swings too fast, the clicking mechanism won’t go up the entire way to go above the shaft, allowing the system to twist. 
                 around this time, the band saw also became out of order, so it was difficult to continue making wooden blocks. i resorted to sawing by hand, to finish mounting the table attachments to allow the board with the clicking mechanisms to hang above the gantry. 
               
               </p>
                   
-              <div style="display: flex; gap: 10px; justify-content: center;">
-                <video src="click_mechanism_push_vid.mov" autoplay loop muted playsinline width="200"></video>
-                <video src="servo_move_up.mov" autoplay loop muted playsinline width="200"></video>
-                <video src="closeup_click.mov" autoplay loop muted playsinline width="200"></video>
-              </div>
+              
 
               <div style="display: flex; gap: 10px; justify-content: center;">
-                <video src="bottom_view" autoplay loop muted playsinline width="250"></video>
-                <video src="flying_block.mov" autoplay loop muted playsinline width="250"></video>
+                <video src="servo_move_up.mov" autoplay loop muted playsinline width="200"></video>
                 <video src="gantry_movement.mov" autoplay loop muted playsinline width="250"></video>
               </div>
               
