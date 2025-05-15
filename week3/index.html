@@ -54,12 +54,13 @@
           <!-- Project Description -->
           <section>
             <h2>jack in the box!</h2>
-            <p>this week. i really wanted to make something that incorporated some sort of linear actuator. i made a homemade linear actuator with a servo motor, some straws, and some... </p>
-            <img src="box_finished.HEIC" >
+            <p>this week, I really wanted to make something that incorporated some sort of linear actuator. i made a homemade linear actuator with a servo motor, some straws, and a thread screw. as i was brainstorming what to create to move something up and down, i got inspired by the idea of a whack a mole, but decided to take it a step further by creating a jack in the box.
+            </p>
+
             <div class="row gtr-uniform">
               <div class="col-6">
                 <span class="image fit">
-                <img src="linear_actuator.HEIC">
+                <img src="linear_actuator.png">
                 </span>
               </div>
               
@@ -69,21 +70,32 @@
                 </span>
               </div>
             </div>
+            
+
+            <p>
+              i already had the linear actuator made with the servo motor, so making the “jack” move up and down was pretty straightforward. all i needed was to make a box with some cute decorations. however, i decided that i wanted a handheld crank, like most jack in the boxes. i needed to figure out how to connect the bottom rotation of the servo into a horizontal rotation on the side of the box. 
+            </p>
 
             
 
-            <div class="video-row">
-              <video autoplay loop muted playsinline>
-                <source src="spin_another_zngle.mov" type="video/mp4">
-              </video>
-          
-              <video autoplay loop muted playsinline>
-                <source src="spin_box.mov" type="video/mp4">
-              </video>
+            <p>
+              this was quite challenging since i didn’t know how to 3d print yet, but after doing some research, it looked like bevel gears are the usual method to change the angle of rotation. after trying various things, i randomly found bevel gears thrown away in some random box in the lab late at night. it didn’t fit quite right, but i tried my best to make it fit. 
+            </p>
+            <div class="image-centered">
+              <img src="box_finished.png" >
             </div>
-            <video controls width="600">
-              <source src="no_hand_spin.MOV" type="video/mp4">
-            </video>
+            <p>
+              then i made a little clay capybara and bam! jack in the box!
+            </p>
+
+    
+
+            <div style="display: flex; gap: 10px; justify-content: center;">
+              <video src="spin_another_zngle.mov" autoplay loop muted playsinline width="400" style="transform: rotate(180deg); border-radius: 8px;"> </video>
+              <video src="spin_box.mov" autoplay loop muted playsinline width="400" style="transform: rotate(180deg); border-radius: 8px;"></video>
+              <video src="no_hand_spin.MOV" autoplay loop muted playsinline width="400" style="transform: rotate(180deg); border-radius: 8px;"></video>
+
+            </div>
 
           </section>
         </div>
