@@ -101,8 +101,20 @@
 
               </p>
 
-              <div class="image-centered">
-                <img src="blueprints.png">
+            
+
+              <div class="row gtr-uniform">
+                <div class="col-6">
+                  <span class="image fit">
+                  <img src="blueprints.png">
+                  </span>
+                </div>
+                
+                <div class="col-6">
+                  <span class="image fit">
+                  <img src="matrix_pic.png">
+                  </span>
+                </div>
               </div>
 
               <div class="video-wrapper">
@@ -139,6 +151,20 @@
                 after creating the general shape of the board and the click mechanism attachments, i went back to the gantry system. I adapted the gantry that my group used in the writing machine project, first, i changed the pen attachment from the gantry into one that allows more space for the servo arm to swing and to decrease the length that the servo will need to be to reach the click mechanism. i attached a servo arm extension to it, and once it rotates, it will be able to hit the clicking mechanism. however, many things began to malfunction at this point. i worked on the code for our group writing machine, so i was familiar with it and what i would need to change in order to get my project to work. however, the esp32 got fried and when i replaced it, the servo also had gotten fried. a lot of things broke. the gantry from the writing project was working earlier, but as i was rewiring things, the motor drivers fried, and there were no more left. this put me in a tough situation since this meant i couldnt get the gantry to work at all. however, in principal it would work, and i still formatted the servo motor arm to be able to reach the click-pen mechanism.the stepper motors stopped working at this point too, and that is when i realized the driver motors also got fried! this was a disaster, and unfortunately there were no other driver motors left. so, the only alternative i had was to show the concept of the gantry moving, and then move the servo attachment around. 
               </p>
 
+              div class="row gtr-uniform">
+                <div class="col-6">
+                  <span class="image fit">
+                  <img src="pegboard.png">
+                  </span>
+                </div>
+                
+                <div class="col-6">
+                  <span class="image fit">
+                  <img src="newservo.png">
+                  </span>
+                </div>
+              </div>
+
               <div style="display: flex; gap: 10px; justify-content: center;">
                 <video src="click_mechanism_push_vid.mov" autoplay loop muted playsinline width="400" style="transform: rotate(180deg); border-radius: 8px;"> </video>
                 <video src="closeup_click.mov" autoplay loop muted playsinline width="400" style="transform: rotate(180deg); border-radius: 8px;"></video>
@@ -150,15 +176,12 @@
               
               </p>
                   
-              <div style="display: flex; gap: 10px; justify-content: center;">
-                <video src="servo_move_up.mov" autoplay loop muted playsinline width="600" ></video>
-                <video src="gantry_movement.mov" autoplay loop muted playsinline width="600" ></video>
+              
+              <div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 2em;">
+                <video src="servo_move_up.mov" autoplay loop muted playsinline width="500" style="transform: rotate(180deg); border-radius: 8px;"></video>
+                <video src="gantry_movement.mov" autoplay loop muted playsinline width="500" style="transform: rotate(180deg); border-radius: 8px;"></video>
               </div>
               
-              <p>
-
-              </p>
-               
             <!-- Additional Paragraphs for Descriptions -->
             <h3>what i learned</h3>
             <p>in the end, although my board is far from what i envisioned, i think it was a good starting point for a future project. i was told early on that this was an ambitious project to undertake, but i didn’t fully understand how many moving parts there were until now. it was a challenging but rewarding experience!
